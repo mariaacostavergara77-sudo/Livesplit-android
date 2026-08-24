@@ -5,10 +5,9 @@
 
     <application
         android:label="Livesplit SA"
-        android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name="io.flutter.embedding.android.FlutterActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:taskAffinity=""
@@ -30,4 +29,3 @@
             android:value="2" />
     </application>
 </manifest>
-          
